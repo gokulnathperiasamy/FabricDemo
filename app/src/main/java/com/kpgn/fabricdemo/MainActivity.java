@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void forceCrash(View view) {
-        throw new RuntimeException("This is a crash");
+        throw new RuntimeException("Force Crashed!");
     }
 
 }
